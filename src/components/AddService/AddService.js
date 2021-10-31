@@ -12,7 +12,7 @@ const AddService = () => {
     const onSubmit = data => {
         console.log(data);
         //search axios and copy from axios git and edit
-        axios.post('http://localhost:7000/',data)
+        axios.post('https://haunted-barrow-42206.herokuapp.com/',data)
         .then(res=>{
             console.log(res); 
             if(res.data.insertedId){

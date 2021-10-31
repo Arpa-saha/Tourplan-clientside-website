@@ -5,7 +5,7 @@ import './ClientReview.css'
 const ClientReview = () => {
     const [client,setClient]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:7000/Review')
+        fetch('https://haunted-barrow-42206.herokuapp.com/Review')
         .then(res=>res.json())
         .then(data=>setClient(data))
     },[])

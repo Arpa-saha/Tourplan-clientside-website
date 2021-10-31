@@ -20,7 +20,7 @@ const Booking = () => {
     
 
     useEffect(() => {
-        fetch(`http://localhost:7000/Services/${serviceId}`)
+        fetch(`https://haunted-barrow-42206.herokuapp.com/Services/${serviceId}`)
             .then(res => res.json())
             .then(data => setServices(data));
             
@@ -32,7 +32,7 @@ const Booking = () => {
     const onSubmit = data => {
         console.log(data);
         //search axios and copy from axios git and edit
-        axios.post('http://localhost:7000/order',data)
+        axios.post('https://haunted-barrow-42206.herokuapp.com/order',data)
         .then(res=>{
             console.log(res); 
             if(res.data.insertedId){

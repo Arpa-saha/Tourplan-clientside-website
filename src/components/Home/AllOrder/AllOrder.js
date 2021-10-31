@@ -6,7 +6,7 @@ const handleDelete = id => {
     console.log(id)
     const process = window.confirm('Are you sure ,You want to remove');
    if(process){
-    const url = `http://localhost:7000/order/${id}`;
+    const url = `https://haunted-barrow-42206.herokuapp.com/order/${id}`;
     fetch(url, {
         method: 'DELETE'
     })
