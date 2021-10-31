@@ -1,0 +1,51 @@
+
+
+
+
+
+[
+    {
+        "id": 1,
+        "name": "Sent Martin",
+        "img": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/74/2e/11.jpg",
+        "price": 12500,
+        "person": 2,
+        "date": "3 Day & 2 Night"
+    },
+    {
+        "id": 2,
+        "name": "Nilgiri",   
+        "img": "https://amazingtoursbd.com/tour_image/1605163051.jpg",
+        "price": 7000,
+        "person": 2,
+        "date": "3 Day & 2 Night"
+    },
+    {
+        "id": 3,
+        "name": "coxs bazar",
+        "img": "https://images.unsplash.com/photo-1587222318667-31212ce2828d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y294cyUyMGJhemFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+        "price": 5000,
+        "date": "2 Day & 3 Night"
+    },
+    {
+        "id": 4,
+        "name": "saint martin",
+        "img": "https://media-eng.dhakatribune.com/uploads/2019/02/saint-martin-s-island-syed-zakir-hossain-1550144836438.jpg",
+        "price": 8500,
+        "date": "3Day & 2 Night"
+    },
+    {
+        "id": 5,
+        "name": "sundarban",
+        "img": "https://i.ytimg.com/vi/YAuMCIdWjHE/maxresdefault.jpg",
+        "price": 6000,
+        "date": "3 Day & 2 Night"
+    },
+    {
+        "id": 6,
+        "name": "sopnodip",
+        "img": "https://i.ytimg.com/vi/81UpelkET2g/hqdefault.jpg",
+        "price": 3000,
+        "date": "1 day 1 night"
+    }
+]

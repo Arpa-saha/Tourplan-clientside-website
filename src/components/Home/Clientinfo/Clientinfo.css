@@ -1,0 +1,54 @@
+.images{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    
+}
+.images:hover{
+    
+    cursor: pointer;
+}
+
+/* .card-group{
+    height: 300px;
+} */
+.fa-star {
+    color: goldenrod;
+}
+.far{
+    color: goldenrod;
+}
+.fa-facebook-f{
+    color: blue;
+}
+.fa-whatsapp{
+    color: green;
+}
+
+.fa-twitter{
+    color: rgb(40, 40, 195);
+}
+@media only screen and (max-width:688px) {
+    .responsives{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .clientCart{
+        width: 100%;
+    }
+
+    
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .responsives{
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .clientCart{
+        width: 100%;
+    }
+
+
+    
+}
